@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <UserProfile name="Leon" age="20" bio="Loves hiking and swimming" />
+      <UserProfile name="Alice", "25", "Loves hiking and photography />
       <Header />
       <MainContent />
       <Footer />
