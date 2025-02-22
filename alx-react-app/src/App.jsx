@@ -6,6 +6,7 @@ import './App.css'
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
+import UserProfile from './components/UserProfile';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <UserProfile name="Leon" age="20" bio="Loves hiking and swimming" />
       <Header />
       <MainContent />
       <Footer />
