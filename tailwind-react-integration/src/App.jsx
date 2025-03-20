@@ -3,12 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UserProfile from './components/UserProfile'
+import AddRecipeForm from "./components/AddRecipeForm";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">Add a Recipe</h1>
+      <AddRecipeForm />
+    </div>
       <UserProfile />
       <div>
         <a href="https://vite.dev" target="_blank">
